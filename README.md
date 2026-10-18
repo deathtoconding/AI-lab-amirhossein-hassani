@@ -2,6 +2,6 @@
 
 - **name:** Amirhossein Hassani
 - **email:** amirhosein83hasani@gmail.com
-- **class:** AI lab with Jokar
+- **class:** AI lab by Jokar
 - **instructor:** Jokar
-- **written with:** Jokar (AI lab)
+- **written by:** Jokar (AI lab)
