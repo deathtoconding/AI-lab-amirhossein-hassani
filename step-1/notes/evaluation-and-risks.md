@@ -1,3 +1,13 @@
+# Evaluation Metrics, Risks and Reporting Protocol
+
+> **Summary (English).** §1 defines the evaluation metrics used for the digit agent
+> (accuracy, macro-F1, per-class precision/recall, confusion matrix, inference latency).
+> §2 lists risks and limitations with mitigations and how each is assessed.
+> §3 is the protocol that must be followed when reporting results (dataset, splits, model,
+> metrics, error analysis, speed, reproducibility). The notes are written in Persian.
+
+---
+
 # معیارهای ارزیابی، ریسک‌ها و پروتکل گزارش
 
 ## ۱. معیارهای ارزیابی مدل

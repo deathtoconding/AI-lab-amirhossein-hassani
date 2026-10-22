@@ -1,3 +1,16 @@
+# Step 1 — Handwritten Digit Recognition
+
+> **Summary (English).** An agent that receives an 8×8 image of a handwritten digit and
+> classifies it into one of the ten classes 0–9. This report defines the task with the
+> **PEAS** framework (§1) and characterises the task **environment** (§2).
+> Metrics, risks and the reporting protocol are in
+> [`notes/evaluation-and-risks.md`](notes/evaluation-and-risks.md); the implementation is
+> [`agent.py`](agent.py), and [`HOW.md`](HOW.md) records how it was produced.
+>
+> The report below is in Persian.
+
+---
+
 # پروژه تشخیص ارقام دست‌نویس (Handwritten Digit Recognition)
 
 ## ۱. تعریف مسئله و چارچوب PEAS
