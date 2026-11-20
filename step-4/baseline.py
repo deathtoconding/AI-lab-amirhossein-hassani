@@ -69,7 +69,9 @@ def main() -> None:
     if data.empty:
         raise ValueError(f"Target column '{target}' contains no non-null labels.")
 
-    X = data.drop(columns=[target])
+    # A constant numeric placeholder is sufficient: DummyClassifier ignores X.
+    # It also avoids depending on the types of unrelated dataset columns.
+    X = pd.DataFrame({"_baseline_input": range(len(data))})
     y = data[target]
 
     class_counts = y.value_counts(dropna=False)
