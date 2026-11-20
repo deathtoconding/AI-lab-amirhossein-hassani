@@ -114,7 +114,7 @@ def main() -> None:
     for label, count in class_counts.items():
         print(f"  {label}: {count} ({count / len(y):.1%})")
 
-    print(f"\nMajority class learned from training data: {baseline.predict(X_train.iloc[:1])[0]}")
+    print(f"\nMajority class learned from training data: {baseline.classes_[baseline.class_prior_.argmax()]}")
     print(f"Accuracy: {accuracy_score(y_test, y_pred):.4f}")
     print("\nRecall by class (on test set):")
     for label, recall in zip(labels, recalls):
